@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum New</title>
+</head>
+<body>
+    <div class="container">
+        <h1>New Museum</h1>
+        <form action="/museums" method="POST">
+            <div>
+                <label for="">Name</label>
+                <input type="text" id="name" name="museum[name]">
+            </div>
+            <div>
+                <label for="">About</label>
+                <input type="text" id="about" name="museum[about]">
+            </div>
+            <div>
+                <label for="">Location</label>
+                <input type="text" id="location" name="museum[location]">
+            </div>
+            <div>
+                <label for="">Price</label>
+                <input type="text" id="price" name="museum[price]">
+            </div>
+            <div>
+                <label for="">Hours</label>
+                <input type="text" id="hours" name="museum[hours]">
+            </div>
+            <div>
+                <label for="">Website</label>
+                <input type="text" id="website" name="museum[website]">
+            </div>
+            <button>Add Museum</button>
+        </form>
+        <footer>
+            <a href="/museums">All Museums</a>
+        </footer>
+    </div>
+</body>
+</html>

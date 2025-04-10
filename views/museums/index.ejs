@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <h1>All Museums</h1>
-
+        <a href="/museums/new">New Museum</a>
         <ul>
             <% for(let museum of museums){ %>
             <li><a href="/museums/<%= museum._id %>"><%= museum.name %></a></li>
